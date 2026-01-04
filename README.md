@@ -1,13 +1,20 @@
-# BookShelf Hub
+# 📚 BookShelf Hub
 
-### PHP Version
+A PHP & MySQL based CRUD web application to manage books.
 
-Features:
+## Features
+- Add, Edit, Delete Books
+- Book Ratings
+- Search Functionality
+- Clean UI
+- Secure Database Queries
 
-- ✔ Add Book
-- ✔ View Books
-- ✔ Edit Book
-- ✔ Delete Book
-- ✔ Book Ratings
-- ✔ Clean UI
-- ✔ Uses MySQL + PHP
+## Tech Stack
+- Frontend: HTML, CSS, JavaScript
+- Backend: PHP
+- Database: MySQL
+
+## How to Run
+1. Import database `bookshelf`
+2. Create table `books`
+3. Run using XAMPP

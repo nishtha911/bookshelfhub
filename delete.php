@@ -1,9 +1,9 @@
 <?php
 include "db.php";
 
-$id = $_GET['id'];
-mysqli_query($conn, "DELETE FROM books WHERE id=$id");
+$stmt = $conn->prepare("DELETE FROM books WHERE id=?");
+$stmt->bind_param("i", $_GET['id']);
+$stmt->execute();
 
 header("Location: index.php");
-exit();
 ?>
