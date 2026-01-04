@@ -1,20 +1,20 @@
 # 📚 BookShelf Hub
 
-A PHP & MySQL based CRUD web application to manage books.
+A Tailwind CSS styled PHP & MySQL CRUD web application.
 
 ## Features
 - Add, Edit, Delete Books
 - Book Ratings
 - Search Functionality
-- Clean UI
-- Secure Database Queries
+- Responsive UI using Tailwind CSS
+- Secure Prepared Statements
 
 ## Tech Stack
-- Frontend: HTML, CSS, JavaScript
+- Frontend: HTML, Tailwind CSS, JavaScript
 - Backend: PHP
 - Database: MySQL
 
-## How to Run
-1. Import database `bookshelf`
+## Setup
+1. Create database `bookshelf`
 2. Create table `books`
-3. Run using XAMPP
+3. Run using XAMPP / localhost
