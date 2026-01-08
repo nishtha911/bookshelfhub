@@ -19,4 +19,9 @@ A Tailwind CSS styled PHP & MySQL CRUD web application.
 2. Create table `books`
 3. Run using XAMPP / localhost
 
-<img width="1918" height="971" alt="image" src="https://github.com/user-attachments/assets/d03c6292-7d90-4867-9b61-a1921e7aed54" />
+## Screenshots
+### Home Page
+![alt text](./assets/images/image.png)
+
+### Add New Book
+![alt text](./assets/images/image-1.png)
